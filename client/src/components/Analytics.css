@@ -1,0 +1,20 @@
+/* Overall card styling */
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 1rem; /* Spacing between cards */
+    padding: 1rem; /* Adjust padding if needed */
+    display: flex; /* Allow for content wrapping */
+    flex-direction: column; /* Stack content vertically */
+    width: 22%; /* Adjust width for desired number of cards per row */
+  }
+  
+  /* Card header */
+
+  
+
+  
+  
+  
+  

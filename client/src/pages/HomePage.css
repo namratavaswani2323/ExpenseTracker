@@ -1,0 +1,106 @@
+/* Base styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6ded6; /* Light gray background */
+  }
+  
+  .Layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure full viewport height */
+  }
+  
+  /* Filters section */
+  .filters {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    padding: 2rem; /* Spacious padding for readability */
+    background-color: #916e4c; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 2rem; /* Spacing between filters and content */
+  }
+  
+  .filters div {
+    margin-right: 1rem; /* Spacing between filter elements */
+    flex: 1 1 0; /* Ensure even distribution of space */
+  }
+  
+  h6 {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333; /* Darker text for headings */
+  }
+  
+  .ant-select {
+    width: 100%; /* Full width for dropdowns */
+    border: 1px solid #fcf6f6; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 0.75rem 1rem; /* Comfortable padding for inputs */
+    transition: all 0.2s ease-in-out; /* Smooth transitions on hover and focus */
+  }
+  
+  .ant-select:hover,
+  .ant-select:focus {
+    border-color: #f6f2f2; /* Blue border on hover and focus */
+  }
+  
+  .ant-select-selector {
+    color: #333; /* Darker text for dropdown options */
+  }
+  
+  .RangePicker {
+    border: 1px solid #121212;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  /* Switch icons */
+  .switch-icons {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .ant-outlined {
+    font-size: 1.2rem; /* Larger icon size */
+    cursor: pointer; /* Indicate clickable icons */
+    transition: all 0.2s ease-in-out; /* Smooth transitions on hover */
+  }
+  
+  .active-icon {
+    color: #0d0d0d; /* Primary color for active icon */
+  }
+  
+  .inactive-icon {
+    color: #999; /* Gray color for inactive icon */
+  }
+  
+  .switch-icons .ant-outlined:hover {
+    color: #f6ecec; /* Slightly darker blue on hover for active icon */
+  }
+  
+  /* Add New button */
+  .btn-primary {
+    background-color: #46211a; /* Primary color for button */
+    color: #fff; /* White button text */
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem; /* Adjust padding for button size */
+    cursor: pointer; /* Indicate clickable button */
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ebeff1; /* Slightly darker blue on hover */
+  }
+  
+  /* Content section */
+  .content {
+    flex: 1; /* Allow content to fill remaining space */
+    padding: 2rem; /* Spacious padding for content */
+  }
+  
+
+  
